@@ -1,0 +1,26 @@
+{
+  "name": "super-important-microservice",
+  "version": "1.0.0",
+  "description": "This is my super important microservice.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomHynes/super-important-microservice.git"
+  },
+  "author": "Dom & Byron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DomHynes/super-important-microservice/issues"
+  },
+  "homepage": "https://github.com/DomHynes/super-important-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "supertest": "^3.1.0"
+  }
+}
