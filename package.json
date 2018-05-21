@@ -2,7 +2,7 @@
   "name": "super-important-microservice",
   "version": "1.0.0",
   "description": "This is my super important microservice.",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest"
   },
