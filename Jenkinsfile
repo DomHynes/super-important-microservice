@@ -13,7 +13,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-            sh
+                sh './stop.sh'
+                sh './start.sh'
             }
         }
     }
