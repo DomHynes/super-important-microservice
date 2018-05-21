@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'npm i'
             }
+        }
         stage('Test') {
             steps {
                 sh 'jest'
